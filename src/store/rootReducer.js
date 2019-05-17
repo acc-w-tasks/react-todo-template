@@ -1,5 +1,8 @@
-import * as actions from './actions'
+import { combineReducers } from 'redux'
+import todos from '../modules/todo/reducer'
 
-export default function reducer(state,action){
-    return state
-}
+const reducer = combineReducers({
+    todos
+})
+
+export default reducer

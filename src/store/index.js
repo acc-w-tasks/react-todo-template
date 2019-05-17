@@ -8,12 +8,7 @@ const logger = createLogger({
     collapsed: true
 })
 
-const state = {
-    hello: 'world'
-}
-
 export default createStore(
     reducer,
-    state,
     applyMiddleware(promise,logger)
 )
