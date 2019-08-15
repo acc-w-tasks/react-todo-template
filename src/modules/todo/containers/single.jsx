@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-const Single = () => <h1>Single page w nested route</h1>
+const Single = () => <h1>it was done lazily</h1>
 
 export default Single
